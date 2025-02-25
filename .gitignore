@@ -1,0 +1,43 @@
+# Build Artifacts
+.flatfile
+dist
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Test coverage
+coverage
+lib-cov
+*.lcov
+.nyc_output
+
+# Dependencies
+node_modules
+
+# Environment
+.env*
+!.env.example
+
+# Editors
+**/.idea
+.vscode
+.editorconfig
+*.code-workspace
+
+# Cache
+.swc
+.turbo
+.npm
+.pnpm-store
+.eslintcache
+.cache
+
+# Misc.
+.DS_Store
